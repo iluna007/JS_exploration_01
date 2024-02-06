@@ -10,7 +10,8 @@ function recogedatos(evento) {
     var mensaje4 = "Tu correo y contraseña son incorrectos";
 
     if (email === "ikerluna@hotmail.com" && password === "gato198") {
-        bienvenida.textContent = mensaje1;
+            bienvenida.textContent = mensaje1;
+            window.location.href = "game1.html";
     } else if (email != "ikerluna@hotmail.com" && password != "gato198"){
         bienvenida.textContent = mensaje4;
     } else if (password != "gato198") {
