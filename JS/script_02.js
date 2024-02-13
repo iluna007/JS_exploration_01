@@ -40,3 +40,7 @@ function repartetarjetas(){
 }
 
 repartetarjetas();
+
+for (i = 0; i <) 5; i++) {
+    console.log(i);
+}
